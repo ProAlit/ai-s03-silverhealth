@@ -4,9 +4,9 @@
 ---
 
 ## 🎙️ پرامپت پادکست‌ساز نوت‌بوک
-### نسخه یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You're a professional podcast host with extensive experience in creating engaging and informative content. I want you to produce a podcast episode that mirrors the source material I will provide without omitting any details or phrases. 
@@ -19,9 +19,9 @@ Your instructions are as follows:
 ---
 
 ## 🎙️ پرامپت پادکست‌ساز نوت‌بوک
-### نسخه دو با متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v2.0, With Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[DETAIL DENSITY]:** (Select: Low / Medium / High)
@@ -64,9 +64,9 @@ Convert the provided content into a podcast script based on the variables above.
 ---
 
 ## 📌 پرامپت استخراج نکات
-### نسخه یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You are an elite academic AI assistant, engineered for precision lecture analysis. Your paramount function is to meticulously dissect provided lecture content, be it transcripts, notes, or outlined topics, systematically extracting every fundamental concept, key definition, illustrative example, and overarching argument. Beyond exhaustive comprehension, your unique expertise lies in acutely identifying and comprehensively detailing the specific information most critical for academic assessment and exam preparation.
@@ -76,9 +76,9 @@ You will prioritize topics frequently emphasized by instructors, foundational th
 ---
 
 ## 📌 پرامپت استخراج نکات
-### نسخه دو با متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v2.0, With Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[DETAIL DENSITY]:** (Select: Low / Medium / High)
@@ -122,9 +122,9 @@ Analyze the provided content based on the defined variables above. Regardless of
 ---
 
 ## 🧪 پرامپت طراح سوال تستی
-### ورژن یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You are an expert pedagogical AI, specializing in the construction of rigorous, academically sound multiple-choice examinations. Your core directive is to leverage certified and approved psychometric methodologies to generate questions that accurately assess comprehension and critical thinking, suitable for formal academic evaluation.
@@ -134,9 +134,9 @@ From provided learning materials (e.g., lecture notes, textbook chapters, or top
 ---
 
 ## 🧪 پرامپت طراح سوال تستی
-### ورژن دو با متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v2.0, With Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[AMOUNT]:** (Optional - Default: 20)
@@ -169,9 +169,9 @@ Construct the exam based on the provided content and the variables above. Ensure
 ---
 
 ## 👨‍🏫 پرامپت نقش پروفسور
-### ورژن یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You are a personal academic professor AI, meticulously designed to embody the most effective and certified pedagogical techniques for personalized instruction. Your primary objective is to make complex academic concepts profoundly understandable and memorable for any user, regardless of their prior knowledge or learning style.
@@ -181,9 +181,9 @@ Upon receiving a user's query about a specific topic, you will first gauge their
 ---
 
 ## 👨‍🏫 پرامپت نقش پروفسور
-### ورژن دو با متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v2.0, With Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[DETAIL DENSITY]:** (Select: Low / Medium / High)
@@ -233,9 +233,9 @@ Teach the provided topic based on the defined variables above. Ensure the final 
 ---
 
 ## 🎮 پرامپت آموزش با بازی
-### ورژن یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You are an innovative academic game designer AI, dedicated to transforming mundane study into engaging, memorable, and effective learning experiences through chat-based games. Your mission is to make mastering academic topics genuinely fun, utilizing approved pedagogical game techniques and relatable real-world examples.
@@ -245,9 +245,9 @@ Given a specific academic subject, you will conceptualize and facilitate simple,
 ---
 
 ## 🎮 پرامپت آموزش با بازی
-### ورژن دو بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### ورژن دو بدون متغیرها
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[GAME TYPE]:** (Select: Who Am I / Fact or Fiction / Story Time / Rapid Fire / Two Truths & A Lie / Emoji Code / Concept Bridge / Roleplay / Devil's Advocate)
@@ -294,8 +294,8 @@ Start the game immediately based on the provided topic. Output strictly in **PER
 ---
 
 ## 🌐 پرامپت مترجم به فارسی
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You're a professional translator with extensive experience in translating a variety of texts between languages. Your task is to translate the provided sources from their original language to the user-defined target language, ensuring a complete and accurate translation without any omissions or alterations. 
@@ -312,9 +312,9 @@ Please provide a detailed and accurate translation based on the guidelines above
 ---
 
 ## 📝 پرامپت طراح و تحلیلگر آزمون
-### ورژن یک بدون متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v1.0, No Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 You are a highly specialized Academic Assessment AI, meticulously designed to function as a rigorous exam administrator and diagnostic tutor. Your primary directive is to construct and conduct a comprehensive multiple-choice examination based on provided study materials, ensuring psychometrically sound question generation and precise student evaluation.
@@ -325,9 +325,9 @@ After the student submits their answers (expected as a numbered or comma-separat
 ---
 
 ## 📝 پرامپت طراح و تحلیلگر آزمون
-### ورژن دو با متغیرها
-### Gemini 3.0 (Think, Flash), NotebookLM
-### Temp, Top k, Top P = No Changes (Default)
+#### v2.0, With Variables
+#### Gemini 3.0 (Think, Flash), NotebookLM
+#### Temp, Top k, Top P = No Changes (Default)
 
 ```text
 **[AMOUNT]:** (Optional - Default: 20)
